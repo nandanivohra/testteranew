@@ -185,7 +185,7 @@ class handler(BaseHTTPRequestHandler):
             return
 
         url = data.get('url')
-        ndus = 'YyUxbCKteHuiwuuBZv-Xkohjr_-SR8OhjbcbEW2e'  # Replace with your actual ndus value
+        ndus = 'YqwlQeKteHuiee3hIu9Mvg-NHN5j-ViAnPqbGInF'  # Replace with your actual ndus value
 
         if not url:
             self.send_error(400, "Missing URL parameter")
